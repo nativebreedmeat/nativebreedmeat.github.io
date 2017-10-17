@@ -1,4 +1,6 @@
-body, html {
+body, html 
+@import url('https://fonts.googleapis.com/css?family=Poppins')
+{
 	
 	height:100%;
 	background-color: gray;
@@ -10,17 +12,23 @@ hero-image {
 h1{
 	color: black;
 
+
 }
 h2{
 	color: black;
-	font-family: sansserif;
-	font: verdana;
+	font-family: 'Poppins', sans-serif;
 	font-size: 28px;
+	font
 	font-weight: bold;
 	font-style: italic;
+
+h4{
+	color: grey; 
+	font-family: 'Lobster', cursive;
+	font-size: 28px;
+
 }
-p{
-	#slogan
+
 }
 ul{
 	text-align: left;
